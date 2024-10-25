@@ -1,0 +1,107 @@
+body,
+h1 {
+  padding: 0;
+  margin: 0;
+}
+a {
+  font-size: inherit;
+  color: inherit;
+}
+.container {
+  min-height: 100vh;
+  background-image: url(../img/bg1.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  padding: 80px 70px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  width: 340px;
+}
+
+.title {
+  font-size: 46px;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 4px;
+  padding-bottom: 50px;
+}
+
+.title::before {
+  content: "";
+  display: inline-block;
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+  background-image: url(../img/robot.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  vertical-align: -6px;
+}
+.login {
+  padding-bottom: 30px;
+}
+
+.general {
+  margin-bottom: 5px;
+}
+.general input {
+  outline: none;
+  padding: 10px 20px 10px 50px;
+  margin-bottom: 4px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  font-size: 16px;
+  color: #fff;
+}
+
+.general input::placeholder {
+  letter-spacing: 2px;
+  color: #ccc;
+}
+
+.general span {
+  display: block;
+  margin-left: 20px;
+  height: 20px;
+  color: rgb(254, 141, 36);
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.login button {
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #f7d240;
+  outline: none;
+  border: none;
+  color: #555;
+  letter-spacing: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background-color: #f6de80;
+}
+
+.login button:active {
+  background-color: #b99e31;
+}
+
+.enroll {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 14px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>聊天机器人-聊天频道</title>
+    <link rel="icon" href="./img/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://at.alicdn.com/t/c/font_4445994_1aqjqp27xzp.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="title">
+          <h4>AI 聊天机器人</h4>
+        </div>
+        <div class="exhibition">
+          <div class="chat_content"></div>
+        </div>
+        <div class="import">
+          <input
+            type="text"
+            placeholder="在这里输入要发送的消息，按回车健即可发送"
+          />
+          <button>发送</button>
+        </div>
+        <div class="identity_information">
+          <i class="iconfont icon-X"></i>
+          <div class="personal_details">
+            <img src="./img/avatar.png" alt="" />
+            <div class="written_message">
+              <span class="nickname"></span>
+              <span class="loginId"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/api.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
