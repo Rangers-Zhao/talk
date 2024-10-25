@@ -84,6 +84,7 @@
   function quitLogin() {
     API.loginIdOut();
     location.href =
-      location.href.substring(0, location.href.lastIndexOf) + "/login.html";
+      location.href.substring(0, location.href.lastIndexOf("/")) +
+      "/login.html";
   }
 })();
